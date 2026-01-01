@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, SellerLoginActivity.class);
             startActivity(intent);
         });
+        btnBuyer.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BuyerLoginActivity.class);
+            startActivity(intent);
+        });
 
 
     }

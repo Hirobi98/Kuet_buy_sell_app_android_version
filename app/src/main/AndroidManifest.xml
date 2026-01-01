@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SellerLoginActivity" />
+        <activity android:name=".BuyerLoginActivity" />
 
 
     </application>
