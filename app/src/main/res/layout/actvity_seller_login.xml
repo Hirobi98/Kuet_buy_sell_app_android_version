@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELLER LOGIN"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/txtSellerPhoneLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/pfSellerPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnSellerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvGoToSellerSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account? Sign up here"
+        android:textColor="#2196F3"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+</LinearLayout>
