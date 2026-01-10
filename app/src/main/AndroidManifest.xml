@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".SellerLoginActivity" />
         <activity android:name=".BuyerLoginActivity" />
+        <activity android:name=".BuyerSignupActivity" />
+        <activity android:name=".SellerSignupActivity" />
 
 
     </application>
